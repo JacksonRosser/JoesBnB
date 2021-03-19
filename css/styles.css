@@ -32,6 +32,9 @@ footer{
     max-height: auto;
     max-width: 800px;
     justify-self: center;
+    align-items: center;
+    align-self: center;
+    
 }
 footer p{
     margin: auto;
