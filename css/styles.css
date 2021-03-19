@@ -30,6 +30,7 @@ footer{
     justify-content: center;
     background-color: grey;
     max-height: auto;
+    max-width: 800px;
 }
 footer p{
     margin: auto;
