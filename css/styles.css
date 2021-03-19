@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+header {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    border: solid 1px;
+    background-image: url("../images/b&b.jpg");
+    background-size: cover;
+    height: 190px;
+    text-shadow: white 1px 1px, white 1px 1px, white 1px 1px, white 1px 1px;
+}
+h2, h3{
+    color: darkgrey;
+    text-shadow: black .25px .25px, black .25px .25px, black .25px .25px, black .25px .25px;
+}
+h4{
+    text-shadow: black .25px .25px, black .25px .25px, black .25px .25px, black .25px .25px;
+    color:lightgrey;
+    margin-left: 23px;
+}
+main{
+    max-width: 750px;
+    margin: 0 auto;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    max-height: auto;
+}
+footer p{
+    margin: auto;
+}
+li::marker{
+content: "❌"
+}
+ul{
+    color: rgb(69, 69, 69);
+}
